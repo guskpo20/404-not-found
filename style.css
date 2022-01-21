@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h2{
+    margin-left: 24px;
+    font-family: 'Incosolata', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80vh;
+    justify-content: space-around;
+}
+
+
+.img-container{
+    justify-self: center;
+    align-self: center;
+    max-width: 539.22px;
+    width:60%;
+}
+
+.text-buttonContainer{
+    justify-self: center;
+    align-self: center;
+}
+img{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Space Mono', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    word-spacing: 1.5rem;
+    letter-spacing: -0.035em;
+    color: #333333;
+    width: 586px;
+    height: 190px;
+}
+
+p{
+
+    font-family: 'Space Mono', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    word-spacing: 0.5rem;
+    color: #4F4F4F;
+    width:381px;
+    height:108px;
+}
+
+button{
+    margin-top: 50px;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    color: white;
+
+    font-family: 'Space Mono', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+@media(max-width: 1000px){
+    .container{
+        display:flex;
+        flex-direction: row;
+    }
+    .text-buttonContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        max-width: 350px;
+        max-height: 142px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        word-spacing: -0.02em;
+    }
+
+    p{
+        max-width: 381px;
+        max-height: 108px;
+        margin-top: -10px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        color: #4F4F4F;
+        word-spacing: -0.1em;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+
+}
